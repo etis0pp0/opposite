@@ -3,13 +3,13 @@ a{
     color: black;
 }
 a:visited, a:hover, a:focus, a:active { text-decoration: none; }
-html {
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-body {
+a {
     padding: 3rem;
     font-size: 2rem;
     border-radius: 1rem;
