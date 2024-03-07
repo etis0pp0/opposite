@@ -1,16 +1,35 @@
-a{
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
     text-decoration: none;
     color: black;
+    padding: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
 }
+
 a:visited, a:hover, a:focus, a:active { text-decoration: none; }
-body {
+
+.index_body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-a {
-    padding: 3rem;
-    font-size: 2rem;
-    border-radius: 1rem;
+
+.home_header_logo, .home_main{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.home_header_logo{
+    font-size: 25px;
+}
+
+.home_main_list{
+    height: 50%;
+    width: 50%;
 }

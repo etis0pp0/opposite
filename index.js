@@ -7,4 +7,3 @@ function changeName(){
         logoName.innerHTML = '<h1>E T I S O P P O</h1>'
     }
 }
-
